@@ -28,15 +28,27 @@ tw-link:hover {
 	color: white;
 }
 
-
 tw-sidebar 
 {
     display: none;
 }
 
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(75, end);
+    animation: type 5s steps(75, end);
+}
 
+@keyframes type{
+    from { width: 0; }
+}
 
-
+@-webkit-keyframes type{
+    from { width: 0; }
+}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
@@ -58,8 +70,10 @@ LOCATION: [REDACTED]
 
 [[&gt;UPLOAD]]</tw-passagedata><tw-passagedata pid="5" name="&gt;UPLOAD" tags="" position="201,696" size="100,100">[[&gt;UPLOADING . . .]]</tw-passagedata><tw-passagedata pid="6" name="&gt;UPLOADING . . ." tags="" position="201,846" size="100,100">[[&gt;UPLOAD COMPLETE.]]</tw-passagedata><tw-passagedata pid="7" name="&gt;UPLOAD COMPLETE." tags="" position="201,995" size="100,100">[[&gt;WE HAVE HIM.]]</tw-passagedata><tw-passagedata pid="8" name="&gt;WE HAVE HIM." tags="" position="200,1109" size="100,100">[[&gt;(A COMPUTER STORY.)]]</tw-passagedata><tw-passagedata pid="9" name="&gt;(A COMPUTER STORY.)" tags="" position="200,1259" size="100,100">[[&gt;BEGIN]]</tw-passagedata><tw-passagedata pid="10" name="&gt;BEGIN" tags="" position="196,1409" size="100,100">
 
-[[&gt;Next]]</tw-passagedata><tw-passagedata pid="11" name="Untitled Passage 1" tags="" position="202,0" size="100,100">&lt;video src=&quot;video-1525575136.mp4&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;
-&lt;/video&gt;
+[[&gt;Next]]</tw-passagedata><tw-passagedata pid="11" name="Untitled Passage 1" tags="" position="202,0" size="100,100">&lt;!--&lt;video src=&quot;video-1525575136.mp4&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;
+&lt;/video&gt;--&gt;
+
+{(live:1000ms)[&lt;p class=&quot;css-typing&quot;&gt;Hello Typewriter!&lt;/p&gt;(stop:)]}
 
 [[&gt;WELCOME]]</tw-passagedata><tw-passagedata pid="12" name="&gt;Next" tags="" position="200,1559" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
